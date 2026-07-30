@@ -1,4 +1,4 @@
-# DBALP Figma-Inspired Next.js Landing Page
+# Oakmountlp Next.js Landing Page
 
 This is a Next.js App Router landing page for Duro-Bello & Aina Legal Practitioners (DBALP), inspired by the structure and feel of a modern law firm Figma website template.
 
