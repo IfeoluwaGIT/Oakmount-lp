@@ -12,17 +12,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$
 ;
 ;
 const metadata = {
-    title: "DBALP | Duro-Bello & Aina Legal Practitioners",
-    description: "Duro-Bello & Aina Legal Practitioners is a Lagos-based law firm advising founders, companies, property clients and regulated businesses.",
-    metadataBase: new URL("https://www.dba-lp.com"),
+    title: "OLP | Oakmount Legal Practitioners",
+    description: "Oakmount Legal Practitioners is a Lagos-based law firm advising founders, companies, property clients and regulated businesses.",
+    metadataBase: new URL("https://www.oakmountlp.com"),
     openGraph: {
-        title: "DBALP | Duro-Bello & Aina Legal Practitioners",
+        title: "OLP | Oakmount Legal Practitioners",
         description: "Legal clarity for founders, companies and businesses shaping Nigeria's economy.",
-        url: "https://www.dba-lp.com",
-        siteName: "DBALP",
+        url: "https://www.oakmountlp.com",
+        siteName: "OLP",
         images: [
             {
-                url: "/dba-logo.png",
+                url: "/oakmount-logo.png",
                 width: 1200,
                 height: 1200
             }
