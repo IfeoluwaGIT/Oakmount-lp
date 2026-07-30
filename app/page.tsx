@@ -256,8 +256,6 @@ export default function Home() {
           <div className="heroGrid">
             <div className="heroCopy">
               <p className="heroKicker heroIntroAnimation">
-                <span>Independent legal practice</span>
-                <span>Lagos · Nigeria</span>
               </p>
               <h1 className="heroTitle">
                 <span className="heroLine heroLineOne">Strategic legal</span>
@@ -283,8 +281,6 @@ export default function Home() {
             <aside className="heroVisual" aria-label={`${firm.name} profile`}>
               <div className="heroVisualFrame heroIntroAnimation heroDelayOne">
                 <div className="heroVisualMeta">
-                  <span>Est. Lagos</span>
-                  <span>01 / 03</span>
                 </div>
                 <div className="heroMonogram" aria-hidden="true">
                   <span>O</span>
