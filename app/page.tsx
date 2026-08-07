@@ -289,11 +289,11 @@ export default function Home() {
                 <div className="heroLogoPlate">
                   <Image src="/oakmount-logo2.png" alt={`${firm.name} logo`} width={260} height={260} priority />
                 </div>
-                <p>Legal clarity for consequential decisions.</p>
+                
               </div>
               <div className="heroFloatingNote heroIntroAnimation heroDelayThree">
                 <span>Focused practice</span>
-                <p>Technology · Corporate · Real Estate · Data Protection</p>
+                <p>Technology · Corporate Law · Real Estate · Data Protection</p>
               </div>
             </aside>
           </div>
@@ -326,9 +326,6 @@ export default function Home() {
               <p className="eyebrow">Our expertise</p>
               <h2>Focused advice for the decisions that move business forward.</h2>
             </div>
-            <p>
-              We combine legal precision with a clear understanding of the commercial context, helping clients structure, protect and complete important work.
-            </p>
           </header>
 
           <div className="practiceGrid">
@@ -352,7 +349,7 @@ export default function Home() {
           <div className="aboutStatement" data-reveal>
             <div className="aboutTopLine">
               <span>{firm.shortName}</span>
-              <span>Lekki Phase 1 · Lagos</span>
+              
             </div>
             <p className="aboutStatementNumber">01</p>
             <h2>Legal advisors who understand both the law and the transaction.</h2>
@@ -492,39 +489,88 @@ export default function Home() {
               </div>
             </div>
 
-            <form className="contactForm" action={`mailto:${firm.email}`} method="post" encType="text/plain">
-              <div className="formRow">
-                <label>
-                  <span>Name</span>
-                  <input name="name" type="text" placeholder="Your name" autoComplete="name" required />
-                </label>
-                <label>
-                  <span>Email</span>
-                  <input name="email" type="email" placeholder="you@example.com" autoComplete="email" required />
-                </label>
-              </div>
-              <label>
-                <span>Matter type</span>
-                <select name="matterType" defaultValue="" required>
-                  <option value="" disabled>
-                    Select one
-                  </option>
-                  <option>Technology / Startup</option>
-                  <option>Corporate / Secretarial</option>
-                  <option>Data Protection</option>
-                  <option>Real Estate</option>
-                  <option>Contracts</option>
-                  <option>Regulatory Advisory</option>
-                </select>
-              </label>
-              <label>
-                <span>Message</span>
-                <textarea name="message" placeholder="Briefly describe what you need help with." rows={5} required />
-              </label>
-              <button className="button buttonGold formButton" type="submit">
-                Send enquiry <ArrowIcon />
-              </button>
-            </form>
+            <form
+  className="contactForm"
+  onSubmit={async (e) => {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: formData.get("name"),
+        email: formData.get("email"),
+        matterType: formData.get("matterType"),
+        message: formData.get("message"),
+      }),
+    });
+
+    if (response.ok) {
+      alert("Thank you. Your enquiry has been sent.");
+      form.reset();
+    } else {
+      alert("Something went wrong. Please try again.");
+    }
+  }}
+>
+  <div className="formRow">
+    <label>
+      <span>Name</span>
+      <input
+        name="name"
+        type="text"
+        placeholder="Your name"
+        autoComplete="name"
+        required
+      />
+    </label>
+
+    <label>
+      <span>Email</span>
+      <input
+        name="email"
+        type="email"
+        placeholder="you@example.com"
+        autoComplete="email"
+        required
+      />
+    </label>
+  </div>
+
+  <label>
+    <span>Matter type</span>
+    <select name="matterType" defaultValue="" required>
+      <option value="" disabled>
+        Select one
+      </option>
+      <option>Technology / Startup</option>
+      <option>Corporate / Secretarial</option>
+      <option>Data Protection</option>
+      <option>Real Estate</option>
+      <option>Contracts</option>
+      <option>Regulatory Advisory</option>
+    </select>
+  </label>
+
+  <label>
+    <span>Message</span>
+    <textarea
+      name="message"
+      placeholder="Briefly describe what you need help with."
+      rows={5}
+      required
+    />
+  </label>
+
+  <button className="button buttonGold formButton" type="submit">
+    Send enquiry <ArrowIcon />
+  </button>
+</form>
           </div>
         </section>
 

@@ -622,13 +622,6 @@ function Home() {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
                                                         lineNumber: 289,
                                                         columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        children: "Legal clarity for consequential decisions."
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 292,
-                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
@@ -647,7 +640,7 @@ function Home() {
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        children: "Technology · Corporate · Real Estate · Data Protection"
+                                                        children: "Technology · Corporate Law · Real Estate · Data Protection"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
                                                         lineNumber: 296,
@@ -798,39 +791,30 @@ function Home() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                                 className: "sectionHeader",
                                 "data-reveal": true,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "eyebrow",
-                                                children: "Our expertise"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 326,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                children: "Focused advice for the decisions that move business forward."
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 327,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 325,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "We combine legal precision with a clear understanding of the commercial context, helping clients structure, protect and complete important work."
-                                    }, void 0, false, {
-                                        fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 329,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "eyebrow",
+                                            children: "Our expertise"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
+                                            lineNumber: 326,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            children: "Focused advice for the decisions that move business forward."
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
+                                            lineNumber: 327,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
+                                    lineNumber: 325,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
                                 lineNumber: 324,
                                 columnNumber: 11
@@ -852,7 +836,7 @@ function Home() {
                                                         children: area.number
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 338,
+                                                        lineNumber: 335,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -861,27 +845,27 @@ function Home() {
                                                         children: "↗"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 339,
+                                                        lineNumber: 336,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 337,
+                                                lineNumber: 334,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: area.title
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 341,
+                                                lineNumber: 338,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: area.text
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 342,
+                                                lineNumber: 339,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -891,24 +875,24 @@ function Home() {
                                                     "Discuss this area ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {}, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 344,
+                                                        lineNumber: 341,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 343,
+                                                lineNumber: 340,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, area.title, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 336,
+                                        lineNumber: 333,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 334,
+                                lineNumber: 331,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -927,25 +911,16 @@ function Home() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "aboutTopLine",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: firm.shortName
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 354,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "Lekki Phase 1 · Lagos"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 355,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            children: firm.shortName
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
+                                            lineNumber: 351,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 353,
+                                        lineNumber: 350,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -953,14 +928,14 @@ function Home() {
                                         children: "01"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 357,
+                                        lineNumber: 354,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         children: "Legal advisors who understand both the law and the transaction."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 358,
+                                        lineNumber: 355,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -970,13 +945,13 @@ function Home() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 359,
+                                        lineNumber: 356,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 352,
+                                lineNumber: 349,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -988,21 +963,21 @@ function Home() {
                                         children: "Why choose us"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 365,
+                                        lineNumber: 362,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         children: "An advisor that works inside your business, not just on paper."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 366,
+                                        lineNumber: 363,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Legal advice should help clients move with confidence. Our work connects legal requirements with the business objective behind each matter."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 367,
+                                        lineNumber: 364,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1014,37 +989,37 @@ function Home() {
                                                         children: String(index + 1).padStart(2, "0")
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 374,
+                                                        lineNumber: 371,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: strength
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 375,
+                                                        lineNumber: 372,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, strength, true, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 373,
+                                                lineNumber: 370,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 371,
+                                        lineNumber: 368,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 364,
+                                lineNumber: 361,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                        lineNumber: 351,
+                        lineNumber: 348,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1060,20 +1035,20 @@ function Home() {
                                         children: "How we work"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 384,
+                                        lineNumber: 381,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         children: "A clear route from first conversation to completed work."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 385,
+                                        lineNumber: 382,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 383,
+                                lineNumber: 380,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1090,7 +1065,7 @@ function Home() {
                                                 children: String(index + 1).padStart(2, "0")
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 391,
+                                                lineNumber: 388,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1099,37 +1074,37 @@ function Home() {
                                                         children: step.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 393,
+                                                        lineNumber: 390,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: step.text
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 394,
+                                                        lineNumber: 391,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 392,
+                                                lineNumber: 389,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, step.title, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 390,
+                                        lineNumber: 387,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 388,
+                                lineNumber: 385,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                        lineNumber: 382,
+                        lineNumber: 379,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1147,27 +1122,27 @@ function Home() {
                                         children: "The people"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 403,
+                                        lineNumber: 400,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         children: "Meet our team."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 404,
+                                        lineNumber: 401,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Direct access to the people responsible for your advice."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 405,
+                                        lineNumber: 402,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 402,
+                                lineNumber: 399,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1187,7 +1162,7 @@ function Home() {
                                                 children: String(activeMember + 1).padStart(2, "0")
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 417,
+                                                lineNumber: 414,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1201,12 +1176,12 @@ function Home() {
                                                     priority: activeMember === 0
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 421,
+                                                    lineNumber: 418,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 420,
+                                                lineNumber: 417,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1216,26 +1191,26 @@ function Home() {
                                                         children: selectedMember.role
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 431,
+                                                        lineNumber: 428,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: firm.shortName
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 432,
+                                                        lineNumber: 429,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 430,
+                                                lineNumber: 427,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, `portrait-${activeMember}`, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 409,
+                                        lineNumber: 406,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1253,20 +1228,20 @@ function Home() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 438,
+                                                        lineNumber: 435,
                                                         columnNumber: 61
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 437,
+                                                lineNumber: 434,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: selectedMember.name
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 440,
+                                                lineNumber: 437,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1274,7 +1249,7 @@ function Home() {
                                                 children: selectedMember.role
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 441,
+                                                lineNumber: 438,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1282,7 +1257,7 @@ function Home() {
                                                 children: selectedMember.focus
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 442,
+                                                lineNumber: 439,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1294,25 +1269,25 @@ function Home() {
                                                     " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {}, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 444,
+                                                        lineNumber: 441,
                                                         columnNumber: 61
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 443,
+                                                lineNumber: 440,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, `profile-${activeMember}`, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 436,
+                                        lineNumber: 433,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 408,
+                                lineNumber: 405,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1346,12 +1321,12 @@ function Home() {
                                                     className: "teamThumbImage"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 469,
+                                                    lineNumber: 466,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 468,
+                                                lineNumber: 465,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1361,20 +1336,20 @@ function Home() {
                                                         children: member.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 472,
+                                                        lineNumber: 469,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                         children: member.role
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 473,
+                                                        lineNumber: 470,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 471,
+                                                lineNumber: 468,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1382,24 +1357,24 @@ function Home() {
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 475,
+                                                lineNumber: 472,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, member.name, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 451,
+                                        lineNumber: 448,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 449,
+                                lineNumber: 446,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                        lineNumber: 401,
+                        lineNumber: 398,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1417,14 +1392,14 @@ function Home() {
                                             children: "Contact us"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                            lineNumber: 484,
+                                            lineNumber: 481,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             children: "Let’s discuss the legal support you need."
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                            lineNumber: 485,
+                                            lineNumber: 482,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1435,7 +1410,7 @@ function Home() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                            lineNumber: 486,
+                                            lineNumber: 483,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1446,33 +1421,53 @@ function Home() {
                                                     children: firm.email
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 490,
+                                                    lineNumber: 487,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: firm.address
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 491,
+                                                    lineNumber: 488,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                            lineNumber: 489,
+                                            lineNumber: 486,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                    lineNumber: 483,
+                                    lineNumber: 480,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                     className: "contactForm",
-                                    action: `mailto:${firm.email}`,
-                                    method: "post",
-                                    encType: "text/plain",
+                                    onSubmit: async (e)=>{
+                                        e.preventDefault();
+                                        const form = e.currentTarget;
+                                        const formData = new FormData(form);
+                                        const response = await fetch("/api/contact", {
+                                            method: "POST",
+                                            headers: {
+                                                "Content-Type": "application/json"
+                                            },
+                                            body: JSON.stringify({
+                                                name: formData.get("name"),
+                                                email: formData.get("email"),
+                                                matterType: formData.get("matterType"),
+                                                message: formData.get("message")
+                                            })
+                                        });
+                                        if (response.ok) {
+                                            alert("Thank you. Your enquiry has been sent.");
+                                            form.reset();
+                                        } else {
+                                            alert("Something went wrong. Please try again.");
+                                        }
+                                    },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "formRow",
@@ -1483,8 +1478,8 @@ function Home() {
                                                             children: "Name"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 498,
-                                                            columnNumber: 19
+                                                            lineNumber: 523,
+                                                            columnNumber: 7
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                             name: "name",
@@ -1494,14 +1489,14 @@ function Home() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 499,
-                                                            columnNumber: 19
+                                                            lineNumber: 524,
+                                                            columnNumber: 7
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 497,
-                                                    columnNumber: 17
+                                                    lineNumber: 522,
+                                                    columnNumber: 5
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                     children: [
@@ -1509,8 +1504,8 @@ function Home() {
                                                             children: "Email"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 502,
-                                                            columnNumber: 19
+                                                            lineNumber: 534,
+                                                            columnNumber: 7
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                             name: "email",
@@ -1520,20 +1515,20 @@ function Home() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 503,
-                                                            columnNumber: 19
+                                                            lineNumber: 535,
+                                                            columnNumber: 7
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 501,
-                                                    columnNumber: 17
+                                                    lineNumber: 533,
+                                                    columnNumber: 5
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                            lineNumber: 496,
-                                            columnNumber: 15
+                                            lineNumber: 521,
+                                            columnNumber: 3
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                             children: [
@@ -1541,8 +1536,8 @@ function Home() {
                                                     children: "Matter type"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 507,
-                                                    columnNumber: 17
+                                                    lineNumber: 546,
+                                                    columnNumber: 5
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
                                                     name: "matterType",
@@ -1555,62 +1550,62 @@ function Home() {
                                                             children: "Select one"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 509,
-                                                            columnNumber: 19
+                                                            lineNumber: 548,
+                                                            columnNumber: 7
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                             children: "Technology / Startup"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 512,
-                                                            columnNumber: 19
+                                                            lineNumber: 551,
+                                                            columnNumber: 7
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                             children: "Corporate / Secretarial"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 513,
-                                                            columnNumber: 19
+                                                            lineNumber: 552,
+                                                            columnNumber: 7
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                             children: "Data Protection"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 514,
-                                                            columnNumber: 19
+                                                            lineNumber: 553,
+                                                            columnNumber: 7
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                             children: "Real Estate"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 515,
-                                                            columnNumber: 19
+                                                            lineNumber: 554,
+                                                            columnNumber: 7
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                             children: "Contracts"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 516,
-                                                            columnNumber: 19
+                                                            lineNumber: 555,
+                                                            columnNumber: 7
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                             children: "Regulatory Advisory"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                            lineNumber: 517,
-                                                            columnNumber: 19
+                                                            lineNumber: 556,
+                                                            columnNumber: 7
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 508,
-                                                    columnNumber: 17
+                                                    lineNumber: 547,
+                                                    columnNumber: 5
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                            lineNumber: 506,
-                                            columnNumber: 15
+                                            lineNumber: 545,
+                                            columnNumber: 3
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                             children: [
@@ -1618,8 +1613,8 @@ function Home() {
                                                     children: "Message"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 521,
-                                                    columnNumber: 17
+                                                    lineNumber: 561,
+                                                    columnNumber: 5
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                                     name: "message",
@@ -1628,14 +1623,14 @@ function Home() {
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 522,
-                                                    columnNumber: 17
+                                                    lineNumber: 562,
+                                                    columnNumber: 5
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                            lineNumber: 520,
-                                            columnNumber: 15
+                                            lineNumber: 560,
+                                            columnNumber: 3
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "button buttonGold formButton",
@@ -1644,30 +1639,30 @@ function Home() {
                                                 "Send enquiry ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {}, void 0, false, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 525,
-                                                    columnNumber: 30
+                                                    lineNumber: 571,
+                                                    columnNumber: 18
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                            lineNumber: 524,
-                                            columnNumber: 15
+                                            lineNumber: 570,
+                                            columnNumber: 3
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                    lineNumber: 495,
+                                    lineNumber: 492,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                            lineNumber: 482,
+                            lineNumber: 479,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                        lineNumber: 481,
+                        lineNumber: 478,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -1688,7 +1683,7 @@ function Home() {
                                                 height: 58
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 534,
+                                                lineNumber: 580,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1697,39 +1692,39 @@ function Home() {
                                                         children: firm.shortName
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 536,
+                                                        lineNumber: 582,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                         children: firm.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                        lineNumber: 537,
+                                                        lineNumber: 583,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 535,
+                                                lineNumber: 581,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 533,
+                                        lineNumber: 579,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Clear legal thinking for modern commercial decisions."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 540,
+                                        lineNumber: 586,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 532,
+                                lineNumber: 578,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1741,20 +1736,20 @@ function Home() {
                                                 children: "Office"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 545,
+                                                lineNumber: 591,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: firm.address
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 546,
+                                                lineNumber: 592,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 544,
+                                        lineNumber: 590,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1763,7 +1758,7 @@ function Home() {
                                                 children: "Contact"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 549,
+                                                lineNumber: 595,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1771,7 +1766,7 @@ function Home() {
                                                 children: firm.email
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 550,
+                                                lineNumber: 596,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1779,13 +1774,13 @@ function Home() {
                                                 children: firm.website
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 551,
+                                                lineNumber: 597,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 548,
+                                        lineNumber: 594,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1794,7 +1789,7 @@ function Home() {
                                                 children: "Navigation"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                lineNumber: 554,
+                                                lineNumber: 600,
                                                 columnNumber: 15
                                             }, this),
                                             navigation.slice(0, 4).map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1802,19 +1797,19 @@ function Home() {
                                                     children: item.label
                                                 }, item.href, false, {
                                                     fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                                    lineNumber: 556,
+                                                    lineNumber: 602,
                                                     columnNumber: 17
                                                 }, this))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 553,
+                                        lineNumber: 599,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 543,
+                                lineNumber: 589,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1828,7 +1823,7 @@ function Home() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 562,
+                                        lineNumber: 608,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1836,19 +1831,19 @@ function Home() {
                                         children: "Back to top ↑"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                        lineNumber: 563,
+                                        lineNumber: 609,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                                lineNumber: 561,
+                                lineNumber: 607,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/Oakmount-lp/app/page.tsx",
-                        lineNumber: 531,
+                        lineNumber: 577,
                         columnNumber: 9
                     }, this)
                 ]

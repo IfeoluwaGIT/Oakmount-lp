@@ -794,7 +794,7 @@ img {
   margin: 82px 0 18px;
   color: var(--navy);
   font-family: var(--serif);
-  font-size: clamp(25px, 2.2vw, 33px);
+  font-size: clamp(30px, 2.2vw, 33px);
   font-weight: 400;
   letter-spacing: -0.035em;
   line-height: 1.05;
@@ -808,7 +808,7 @@ img {
 .practiceCard p {
   margin: 0;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.75;
   transition: color 0.3s ease;
 }
