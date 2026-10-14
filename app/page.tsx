@@ -56,16 +56,24 @@ const teamMembers = [
     name: "Ifeoluwa Duro-Bello",
     role: "Partner",
     focus: "Corporate advisory, technology, data protection and commercial transactions.",
-    image: "/team/ifeoluwa-duro-bello.jpg",
+    image: "/team/ife.png",
     email: "ife@oakmountlp.com",
   },
   {
     name: "Ileriolwa Aina",
     role: "Partner",
     focus: "Real estate, corporate services, regulatory advisory and dispute-sensitive transactions.",
-    image: "/team/ileri.jpg",
+    image: "/team/ileri.png",
     email: "ileri@oakmountlp.com",
   },
+  {
+    name: "Damilola Olaleye",
+    role: "Of Counsel - Compliance ",
+    focus: "Corporate services, regulatory advisory and regulatory compliance.",
+    image: "/team/dami.png",
+    email: "dami@oakmountlp.com",
+  },
+
   {
     name: "Ayomikun Familua",
     role: "Managing Associate",

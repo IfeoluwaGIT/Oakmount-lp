@@ -1,15 +1,12 @@
-{"timestamp":"00:00:00.858","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:03.002","source":"Browser","level":"WARN","message":"Image with src \"/oakmount-logo.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
-{"timestamp":"00:00:03.006","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/oakmount-logo.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
-{"timestamp":"00:00:03.006","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/oakmount-logo.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
-{"timestamp":"00:08:12.014","source":"Server","level":"LOG","message":"✓ Compiled in 105ms"}
-{"timestamp":"00:08:39.877","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
-{"timestamp":"00:08:46.465","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
-{"timestamp":"00:09:03.553","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
-{"timestamp":"00:14:44.464","source":"Server","level":"LOG","message":"✓ Compiled in 157ms"}
-{"timestamp":"00:14:47.860","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
-{"timestamp":"00:15:53.112","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"00:15:56.325","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
-{"timestamp":"00:34:38.012","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/oakmount-logo.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
-{"timestamp":"00:34:38.012","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/oakmount-logo.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
-{"timestamp":"00:34:38.012","source":"Browser","level":"WARN","message":"Image with src \"/oakmount-logo.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:00:01.897","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:17.537","source":"Browser","level":"WARN","message":"Image with src \"/oakmount-logo.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:00:17.544","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/oakmount-logo.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:00:17.545","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/oakmount-logo.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"00:01:24.166","source":"Server","level":"LOG","message":"✓ Compiled in 165ms"}
+{"timestamp":"00:03:18.884","source":"Server","level":"LOG","message":"✓ Compiled in 168ms"}
+{"timestamp":"00:03:19.905","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
+{"timestamp":"11:18:07.824","source":"Server","level":"LOG","message":"✓ Compiled in 213ms"}
+{"timestamp":"11:26:14.380","source":"Server","level":"LOG","message":"✓ Compiled in 128ms"}
+{"timestamp":"11:26:21.032","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"11:26:48.725","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/team/ife.jpg\" \"received\" null"}
+{"timestamp":"11:26:48.727","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/team/ife.jpg\" \"received\" null"}
