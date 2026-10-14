@@ -76,7 +76,7 @@ const teamMembers = [
     },
     {
         name: "Damilola Olaleye",
-        role: "Of Counsel - Compliance ",
+        role: "Of Counsel - Corporate, Commercial and Compliance ",
         focus: "Corporate services, regulatory advisory and regulatory compliance.",
         image: "/team/dami.png",
         email: "dami@oakmountlp.com"

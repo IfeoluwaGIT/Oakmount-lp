@@ -1,0 +1,3 @@
+module.exports=[28910,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(55808);a.n(d("[project]/Downloads/Oakmount-lp/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},31692,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(55808);a.n(d("[project]/Downloads/Oakmount-lp/node_modules/next/dist/client/components/builtin/global-error.js"))},37469,a=>{"use strict";a.i(28910);var b=a.i(31692);a.n(b)},28348,a=>{a.n(a.i(37469))}];
+
+//# sourceMappingURL=01ww_next_dist_client_components_builtin_global-error_1htpscr.js.map
