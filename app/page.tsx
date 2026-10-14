@@ -68,7 +68,7 @@ const teamMembers = [
   },
   {
     name: "Damilola Olaleye",
-    role: "Of Counsel - Compliance ",
+    role: "Of Counsel - Corporate, Commercial and Compliance ",
     focus: "Corporate services, regulatory advisory and regulatory compliance.",
     image: "/team/dami.png",
     email: "dami@oakmountlp.com",
@@ -80,6 +80,13 @@ const teamMembers = [
     focus: "Litigation, Family Law, Company secretarial support, contract review and compliance documentation.",
     image: "/team/piri.jpg",
     email: "ayomikun@oakmount.com",
+  },
+  {
+    name: "Toluwanimi Okunade",
+    role: "Senior Associate",
+    focus: " Succession Law, Company secretarial support, contract review and compliance documentation.",
+    image: "/team/tolu.png",
+    email: "toluwanimi@oakmount.com",
   },
 ];
 
