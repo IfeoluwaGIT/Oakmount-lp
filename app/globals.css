@@ -2145,3 +2145,57 @@ img {
     transform: none;
   }
 }
+
+/* Three-slide Oakmount hero */
+.oakHeroCarousel { position: relative; z-index: 2; }
+.oakHeroSlides { display: grid; }
+.oakHeroSlide { grid-area: 1 / 1; min-width: 0; visibility: hidden; opacity: 0; pointer-events: none; transition: opacity .65s ease; }
+.oakHeroSlide.isCurrent { visibility: visible; opacity: 1; pointer-events: auto; z-index: 1; }
+.oakHeroPhotoSlide { position: relative; display: flex; align-items: center; overflow: hidden; }
+.oakHeroBackground { object-fit: cover; object-position: center; }
+.oakHeroShade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(3,7,13,.94), rgba(3,7,13,.7) 45%, rgba(3,7,13,.2)); }
+.oakHeroFeatureCopy { position: relative; z-index: 1; width: min(1240px, calc(100% - 48px)); margin-inline: auto; padding-block: 64px; }
+.oakHeroFeatureCopy h2 { max-width: 800px; margin: 0; font-family: var(--serif); font-size: clamp(54px, 7.2vw, 104px); font-weight: 400; letter-spacing: -.055em; line-height: .98; }
+.oakHeroFeatureCopy h2 em { color: var(--gold-bright); font-weight: 400; }
+.oakHeroFeatureCopy > p:not(.eyebrow) { max-width: 520px; margin: 30px 0; color: #d6d9df; font-size: 17px; line-height: 1.8; }
+.oakHeroTeamSlide { display: grid; grid-template-columns: 1fr 1fr; align-items: center; width: min(1240px, calc(100% - 48px)); margin-inline: auto; gap: 40px; }
+.oakHeroTeamSlide .oakHeroFeatureCopy { width: 100%; }
+.oakHeroTeamSlide h2 { font-size: clamp(54px, 6.4vw, 90px); }
+.oakHeroPortraits { display: flex; gap: 12px; align-items: center; padding-block: 40px; }
+.oakHeroPortrait { position: relative; flex: 1; height: 380px; overflow: hidden; border-radius: 120px 120px 8px 8px; background: #b9b2a7; }
+.oakHeroPortrait:nth-child(2) { transform: translateY(42px); }
+.oakHeroPortrait img { object-fit: cover; object-position: center top; }
+.oakHeroControls { width: min(1240px, calc(100% - 48px)); margin: 36px auto 0; display: flex; justify-content: space-between; gap: 24px; border-top: 1px solid #ffffff30; padding-top: 18px; }
+.oakHeroTabs, .oakHeroPlayback { display: flex; align-items: center; gap: 10px; }
+.oakHeroControls button { cursor: pointer; color: #c6c9ce; background: transparent; min-height: 44px; padding: 10px 14px; font: inherit; font-size: 12px; border: 1px solid transparent; }
+.oakHeroTabs button { display: flex; gap: 12px; align-items: center; border-bottom: 2px solid transparent; }
+.oakHeroTabs button[aria-current="true"] { color: var(--gold-bright); border-bottom-color: var(--gold-bright); }
+.oakHeroPlayback button { border-color: #ffffff30; }
+.oakHeroControls button:hover { color: white; background: #ffffff10; }
+.oakHeroControls button:focus-visible, .oakHeroSlide a:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 4px; }
+@media (max-width: 900px) {
+  .oakHeroCarousel .heroGrid { grid-template-columns: 1fr 0.65fr; gap: 24px; }
+  .oakHeroCarousel .heroVisual { min-height: 400px; }
+  .oakHeroTeamSlide { gap: 20px; }
+  .oakHeroPortrait { height: 300px; }
+}
+@media (max-width: 720px) {
+  .oakHeroCarousel .heroGrid { grid-template-columns: 1fr; gap: 20px; }
+  .oakHeroCarousel .heroVisual { width: min(300px, 100%); min-height: 280px; }
+  .oakHeroCarousel .heroVisualFrame { inset: 0 0 20px; }
+  .oakHeroCarousel .heroFloatingNote { display: none; }
+  .oakHeroCarousel .heroLogoPlate { width: 145px; height: 145px; }
+  .oakHeroFeatureCopy { width: calc(100% - 32px); padding-block: 44px; }
+  .oakHeroFeatureCopy h2, .oakHeroTeamSlide h2 { font-size: clamp(44px, 12vw, 70px); }
+  .oakHeroFeatureCopy > p:not(.eyebrow) { font-size: 15px; }
+  .oakHeroTeamSlide { width: calc(100% - 32px); grid-template-columns: 1fr; gap: 0; align-content: center; }
+  .oakHeroTeamSlide .oakHeroFeatureCopy { padding-bottom: 10px; }
+  .oakHeroPortraits { padding: 15px 0 40px; }
+  .oakHeroPortrait { height: 230px; }
+  .oakHeroPortrait:nth-child(2) { transform: translateY(20px); }
+  .oakHeroControls { width: calc(100% - 24px); gap: 8px; }
+  .oakHeroTabs, .oakHeroPlayback { gap: 3px; }
+  .oakHeroControls button { padding: 10px 12px; }
+  .oakHeroTabText { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .oakHeroSlide { transition: none; } }

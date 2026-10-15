@@ -35,57 +35,10 @@ const mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.exte
 
 module.exports = mod;
 }),
-"[project]/Downloads/Oakmount-lp/app/api/contact/route.js [app-route] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/Downloads/Oakmount-lp/app/api/contact/route.js [app-route] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "POST",
-    ()=>POST
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$resend$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/Oakmount-lp/node_modules/resend/dist/index.mjs [app-route] (ecmascript)");
-;
-const resend = new __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Oakmount$2d$lp$2f$node_modules$2f$resend$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["Resend"](process.env.RESEND_API_KEY);
-async function POST(request) {
-    try {
-        const { name, email, matterType, message } = await request.json();
-        if (!name || !email || !matterType || !message) {
-            return Response.json({
-                error: "All fields are required"
-            }, {
-                status: 400
-            });
-        }
-        await resend.emails.send({
-            from: "Website Enquiries <enquiries@yourdomain.com>",
-            to: [
-                "info@yourdomain.com"
-            ],
-            replyTo: email,
-            subject: `New Website Enquiry - ${matterType}`,
-            text: `
-New website enquiry
-
-Name: ${name}
-Email: ${email}
-Matter Type: ${matterType}
-
-Message:
-${message}
-      `
-        });
-        return Response.json({
-            success: true
-        });
-    } catch (error) {
-        console.error(error);
-        return Response.json({
-            error: "Unable to send enquiry"
-        }, {
-            status: 500
-        });
-    }
-}
+const e = new Error("Could not parse module '[project]/Downloads/Oakmount-lp/app/api/contact/route.js', file not found");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 ];
-
-//# sourceMappingURL=%5Broot-of-the-server%5D__1s3igi3._.js.map

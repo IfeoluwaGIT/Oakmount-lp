@@ -131,6 +131,31 @@ function MenuIcon({ open }: { open: boolean }) {
 }
 
 export default function Home() {
+  const [heroSlide, setHeroSlide] = useState(0);
+  const [heroPaused, setHeroPaused] = useState(false);
+  const [heroHovered, setHeroHovered] = useState(false);
+  const [heroFocused, setHeroFocused] = useState(false);
+  const [heroReducedMotion, setHeroReducedMotion] = useState(true);
+
+  useEffect(() => {
+    const query = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const sync = () => setHeroReducedMotion(query.matches);
+    sync();
+    query.addEventListener("change", sync);
+    return () => query.removeEventListener("change", sync);
+  }, []);
+
+  useEffect(() => {
+    if (heroPaused || heroHovered || heroFocused || heroReducedMotion) return;
+    const timer = window.setTimeout(() => setHeroSlide((slide) => (slide + 1) % 3), 7000);
+    return () => window.clearTimeout(timer);
+  }, [heroSlide, heroPaused, heroHovered, heroFocused, heroReducedMotion]);
+
+  const selectHeroSlide = (slide: number) => {
+    setHeroSlide((slide + 3) % 3);
+    setHeroPaused(true);
+  };
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeMember, setActiveMember] = useState(0);
   const [teamPaused, setTeamPaused] = useState(false);
@@ -268,7 +293,13 @@ export default function Home() {
           <div className="heroAmbient heroAmbientOne" aria-hidden="true" />
           <div className="heroAmbient heroAmbientTwo" aria-hidden="true" />
 
-          <div className="heroGrid">
+          <div className="oakHeroCarousel" role="region" aria-roledescription="carousel" aria-label="Discover Oakmount"
+            onMouseEnter={() => setHeroHovered(true)} onMouseLeave={() => setHeroHovered(false)}
+            onFocusCapture={() => setHeroFocused(true)}
+            onBlurCapture={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setHeroFocused(false); }}>
+            <div className="oakHeroSlides" aria-live="off">
+              <div className={`oakHeroSlide ${heroSlide === 0 ? "isCurrent" : ""}`} role="group" aria-roledescription="slide" aria-label="1 of 3: Welcome" aria-hidden={heroSlide !== 0}>
+<div className="heroGrid">
             <div className="heroCopy">
               <p className="heroKicker heroIntroAnimation">
               </p>
@@ -311,6 +342,48 @@ export default function Home() {
                 <p>Technology · Corporate Law · Real Estate · Data Protection</p>
               </div>
             </aside>
+          </div>
+              </div>
+              <div className={`oakHeroSlide oakHeroPhotoSlide ${heroSlide === 1 ? "isCurrent" : ""}`} role="group" aria-roledescription="slide" aria-label="2 of 3: Practice areas" aria-hidden={heroSlide !== 1}>
+                <Image src="/hero/practice.jpg" alt="" fill sizes="100vw" className="oakHeroBackground" />
+                <div className="oakHeroShade" />
+                <div className="oakHeroFeatureCopy">
+                  <p className="eyebrow eyebrowLight">Our practice areas</p>
+                  <h2>Clarity for every<br />business <em>decision.</em></h2>
+                  <p>From starting a company to protecting its ideas, assets and growth, explore legal support shaped around your business.</p>
+                  <a className="button buttonGold" href="#practice">Explore practice areas <ArrowIcon /></a>
+                </div>
+              </div>
+              <div className={`oakHeroSlide oakHeroTeamSlide ${heroSlide === 2 ? "isCurrent" : ""}`} role="group" aria-roledescription="slide" aria-label="3 of 3: Our team" aria-hidden={heroSlide !== 2}>
+                <div className="oakHeroFeatureCopy">
+                  <p className="eyebrow eyebrowLight">The people behind the advice</p>
+                  <h2>Your business.<br />Our <em>commitment.</em></h2>
+                  <p>Meet the people who bring care, commercial understanding and clear thinking to your legal matters.</p>
+                  <a className="button buttonGold" href="#team">Meet our team <ArrowIcon /></a>
+                </div>
+                <div className="oakHeroPortraits" aria-hidden="true">
+                  {teamMembers.slice(0, 3).map((member) => (
+                    <div className="oakHeroPortrait" key={member.name}>
+                      <Image src={member.image} alt="" fill sizes="(max-width: 720px) 30vw, 18vw" />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+            <div className="oakHeroControls">
+              <div className="oakHeroTabs" aria-label="Choose a slide">
+                {["Welcome", "Practice areas", "Our team"].map((label, index) => (
+                  <button type="button" key={label} aria-label={`Show slide ${index + 1}: ${label}`} aria-current={heroSlide === index ? "true" : undefined} onClick={() => selectHeroSlide(index)}>
+                    <span>{String(index + 1).padStart(2, "0")}</span><span className="oakHeroTabText">{label}</span>
+                  </button>
+                ))}
+              </div>
+              <div className="oakHeroPlayback">
+                <button type="button" aria-label="Previous slide" onClick={() => selectHeroSlide(heroSlide - 1)}>←</button>
+                <button type="button" aria-label="Next slide" onClick={() => selectHeroSlide(heroSlide + 1)}>→</button>
+                {!heroReducedMotion && <button type="button" onClick={() => setHeroPaused((paused) => !paused)} aria-label={heroPaused ? "Start automatic slideshow" : "Pause automatic slideshow"}>{heroPaused ? "Play" : "Pause"}</button>}
+              </div>
+            </div>
           </div>
 
           <div className="heroStats" data-reveal>

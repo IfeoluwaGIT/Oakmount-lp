@@ -2073,4 +2073,276 @@ img {
   }
 }
 
+.oakHeroCarousel {
+  z-index: 2;
+  position: relative;
+}
+
+.oakHeroSlides {
+  display: grid;
+}
+
+.oakHeroSlide {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  grid-area: 1 / 1;
+  min-width: 0;
+  transition: opacity .65s;
+}
+
+.oakHeroSlide.isCurrent {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.oakHeroPhotoSlide {
+  align-items: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.oakHeroBackground {
+  object-fit: cover;
+  object-position: center;
+}
+
+.oakHeroShade {
+  background: linear-gradient(90deg, #03070df0, #03070db3 45%, #03070d33);
+  position: absolute;
+  inset: 0;
+}
+
+.oakHeroFeatureCopy {
+  z-index: 1;
+  width: min(1240px, 100% - 48px);
+  margin-inline: auto;
+  padding-block: 64px;
+  position: relative;
+}
+
+.oakHeroFeatureCopy h2 {
+  max-width: 800px;
+  font-family: var(--serif);
+  letter-spacing: -.055em;
+  margin: 0;
+  font-size: clamp(54px, 7.2vw, 104px);
+  font-weight: 400;
+  line-height: .98;
+}
+
+.oakHeroFeatureCopy h2 em {
+  color: var(--gold-bright);
+  font-weight: 400;
+}
+
+.oakHeroFeatureCopy > p:not(.eyebrow) {
+  color: #d6d9df;
+  max-width: 520px;
+  margin: 30px 0;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.oakHeroTeamSlide {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  width: min(1240px, 100% - 48px);
+  margin-inline: auto;
+  display: grid;
+}
+
+.oakHeroTeamSlide .oakHeroFeatureCopy {
+  width: 100%;
+}
+
+.oakHeroTeamSlide h2 {
+  font-size: clamp(54px, 6.4vw, 90px);
+}
+
+.oakHeroPortraits {
+  align-items: center;
+  gap: 12px;
+  padding-block: 40px;
+  display: flex;
+}
+
+.oakHeroPortrait {
+  background: #b9b2a7;
+  border-radius: 120px 120px 8px 8px;
+  flex: 1;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+
+.oakHeroPortrait:nth-child(2) {
+  transform: translateY(42px);
+}
+
+.oakHeroPortrait img {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.oakHeroControls {
+  border-top: 1px solid #ffffff30;
+  justify-content: space-between;
+  gap: 24px;
+  width: min(1240px, 100% - 48px);
+  margin: 36px auto 0;
+  padding-top: 18px;
+  display: flex;
+}
+
+.oakHeroTabs, .oakHeroPlayback {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.oakHeroControls button {
+  cursor: pointer;
+  color: #c6c9ce;
+  min-height: 44px;
+  font: inherit;
+  background: none;
+  border: 1px solid #0000;
+  padding: 10px 14px;
+  font-size: 12px;
+}
+
+.oakHeroTabs button {
+  border-bottom: 2px solid #0000;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.oakHeroTabs button[aria-current="true"] {
+  color: var(--gold-bright);
+  border-bottom-color: var(--gold-bright);
+}
+
+.oakHeroPlayback button {
+  border-color: #ffffff30;
+}
+
+.oakHeroControls button:hover {
+  color: #fff;
+  background: #ffffff10;
+}
+
+.oakHeroControls button:focus-visible, .oakHeroSlide a:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 4px;
+}
+
+@media (max-width: 900px) {
+  .oakHeroCarousel .heroGrid {
+    grid-template-columns: 1fr .65fr;
+    gap: 24px;
+  }
+
+  .oakHeroCarousel .heroVisual {
+    min-height: 400px;
+  }
+
+  .oakHeroTeamSlide {
+    gap: 20px;
+  }
+
+  .oakHeroPortrait {
+    height: 300px;
+  }
+}
+
+@media (max-width: 720px) {
+  .oakHeroCarousel .heroGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .oakHeroCarousel .heroVisual {
+    width: min(300px, 100%);
+    min-height: 280px;
+  }
+
+  .oakHeroCarousel .heroVisualFrame {
+    inset: 0 0 20px;
+  }
+
+  .oakHeroCarousel .heroFloatingNote {
+    display: none;
+  }
+
+  .oakHeroCarousel .heroLogoPlate {
+    width: 145px;
+    height: 145px;
+  }
+
+  .oakHeroFeatureCopy {
+    width: calc(100% - 32px);
+    padding-block: 44px;
+  }
+
+  .oakHeroFeatureCopy h2, .oakHeroTeamSlide h2 {
+    font-size: clamp(44px, 12vw, 70px);
+  }
+
+  .oakHeroFeatureCopy > p:not(.eyebrow) {
+    font-size: 15px;
+  }
+
+  .oakHeroTeamSlide {
+    grid-template-columns: 1fr;
+    align-content: center;
+    gap: 0;
+    width: calc(100% - 32px);
+  }
+
+  .oakHeroTeamSlide .oakHeroFeatureCopy {
+    padding-bottom: 10px;
+  }
+
+  .oakHeroPortraits {
+    padding: 15px 0 40px;
+  }
+
+  .oakHeroPortrait {
+    height: 230px;
+  }
+
+  .oakHeroPortrait:nth-child(2) {
+    transform: translateY(20px);
+  }
+
+  .oakHeroControls {
+    gap: 8px;
+    width: calc(100% - 24px);
+  }
+
+  .oakHeroTabs, .oakHeroPlayback {
+    gap: 3px;
+  }
+
+  .oakHeroControls button {
+    padding: 10px 12px;
+  }
+
+  .oakHeroTabText {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .oakHeroSlide {
+    transition: none;
+  }
+}
+
 /*# sourceMappingURL=Downloads_Oakmount-lp_app_globals_0_kwvac.css.map*/
