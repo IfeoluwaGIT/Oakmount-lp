@@ -1,0 +1,98 @@
+.olpPeopleSite { background: var(--paper, #f8f5ef); color: var(--ink, #101725); font-family: var(--sans, Arial, sans-serif); }
+.olpPeopleHeader { display: flex; justify-content: space-between; align-items: center; gap: 28px; padding: 24px max(24px, calc((100vw - 1240px)/2)); border-bottom: 1px solid #10172520; background: #f8f5ef; }
+.olpPeopleBrand { display: flex; gap: 12px; align-items: center; }
+.olpPeopleBrand span { display: grid; gap: 4px; }
+.olpPeopleBrand strong { font-size: 20px; letter-spacing: .14em; }
+.olpPeopleBrand small { font-size: 10px; }
+.olpPeopleHeader nav { display: flex; gap: 32px; font-size: 13px; }
+.olpPeopleHeader nav a { padding: 12px 0; }
+.olpPeopleHeader nav a[aria-current] { border-bottom: 1px solid #9c782f; }
+.olpPeopleSite a:focus-visible { outline: 3px solid #a77e2e; outline-offset: 5px; }
+.olpEyebrow { font-family: var(--sans, Arial, sans-serif); font-size: 11px; font-weight: 700; letter-spacing: .17em; text-transform: uppercase; color: #9c782f; margin: 0 0 24px; line-height: 1.6; }
+.olpPeopleIntro { padding: 76px max(24px, calc((100vw - 1240px)/2)) 0; }
+.olpIntroGrid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 60px; align-items: end; }
+.olpPeopleSite h1, .olpPeopleSite h2 { font-family: var(--serif, Georgia, serif); font-weight: 400; }
+.olpIntroGrid h1 { font-size: clamp(64px, 7.8vw, 112px); letter-spacing: -.055em; line-height: .98; margin: 0; }
+.olpIntroGrid em, .olpDirectoryNote em { color: #9c782f; font-weight: 400; }
+.olpIntroGrid > p { font-size: 17px; line-height: 1.8; color: #5f6671; max-width: 390px; margin: 0 0 8px; }
+.olpIntroFoot { display: flex; justify-content: space-between; margin-top: 64px; padding: 20px 0; border-top: 1px solid #10172525; font-size: 10px; letter-spacing: .15em; }
+.olpDirectory { max-width: 1288px; margin: 0 auto; padding: 20px 24px 100px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 56px 28px; }
+.olpPersonLink { display: block; }
+.olpCardImage { position: relative; aspect-ratio: 4 / 5; background: #dfd9cf; overflow: hidden; }
+.olpCardImage img { object-fit: cover; object-position: center top; transition: transform .5s ease; }
+.olpPersonLink:hover .olpCardImage img { transform: scale(1.035); }
+.olpCardAction { position: absolute; right: 16px; bottom: 16px; width: 44px; height: 44px; display: grid; place-items: center; background: #f8f5ef; color: #101725; border-radius: 50%; font-size: 23px; }
+.olpCardCaption { padding: 22px 0 0; }
+.olpCardCaption > p { margin: 0 0 10px; color: #876725; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; line-height: 1.6; }
+.olpCardCaption h2 { font-size: clamp(25px, 2.5vw, 35px); margin: 0 0 18px; letter-spacing: -.035em; }
+.olpViewProfile { font-size: 12px; border-bottom: 1px solid #10172540; padding-bottom: 5px; }
+.olpViewProfile > span { margin-left: 16px; }
+.olpDirectoryNote { display: flex; flex-direction: column; justify-content: center; background: #eee8dd; padding: 40px; }
+.olpDirectoryNote h2 { margin: 0 0 36px; font-size: clamp(30px, 3.2vw, 46px); line-height: 1.15; }
+.olpDirectoryNote a { font-size: 13px; padding-top: 18px; border-top: 1px solid #10172530; }
+.olpProfileHero { color: #fffdf9; background: #081421; padding: 32px max(24px, calc((100vw - 1240px)/2)) 0; }
+.olpBackLink { display: inline-block; font-size: 12px; color: #d8dce1; margin-bottom: 40px; }
+.olpProfileHeroGrid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 70px; align-items: center; }
+.olpProfileHeading { padding: 30px 0 64px; }
+.olpProfileHeading .olpEyebrow { color: #ebce84; }
+.olpProfileHeading h1 { font-size: clamp(56px, 6.4vw, 94px); line-height: 1.02; letter-spacing: -.05em; margin: 0 0 30px; overflow-wrap: anywhere; }
+.olpProfileSummary { color: #bdc5ce; max-width: 500px; font-size: 17px; line-height: 1.8; margin-bottom: 32px; }
+.olpProfileEmail { display: inline-flex; gap: 40px; border-bottom: 1px solid #ebce84; padding-bottom: 12px; color: #ebce84; font-size: 15px; }
+.olpEmailAddress { display: block; color: #bdc5ce; margin-top: 16px; font-size: 12px; overflow-wrap: anywhere; }
+.olpProfilePortrait { position: relative; width: 100%; aspect-ratio: 4 / 5; max-height: 640px; background: #d9d0c2; }
+.olpProfilePortrait img { object-fit: cover; object-position: center top; }
+.olpProfileBody { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 100px; max-width: 1288px; margin: auto; padding: 80px 24px; }
+.olpProfileIndex { align-self: start; position: sticky; top: 32px; }
+.olpProfileIndex nav { display: grid; gap: 20px; font-size: 14px; }
+.olpProfileReturn { display: inline-block; margin-top: 40px; padding-top: 24px; border-top: 1px solid #10172525; font-size: 12px; }
+.olpProfileContent section { padding-bottom: 50px; margin-bottom: 44px; border-bottom: 1px solid #10172525; scroll-margin-top: 30px; }
+.olpProfileContent section:last-child { margin-bottom: 0; }
+.olpProfileContent h2 { margin: 0 0 24px; font-size: 42px; letter-spacing: -.035em; }
+.olpProfileContent p:not(.olpEyebrow), .olpDetailList { font-size: 17px; line-height: 1.9; color: #5f6671; }
+.olpExpertiseList { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; column-gap: 24px; }
+.olpExpertiseList li { padding: 18px 0; border-bottom: 1px solid #10172515; font-size: 16px; line-height: 1.5; }
+.olpDetailList { padding-left: 20px; }
+.olpDetailList li { padding: 8px 0; }
+.olpNextPerson { background: #eee8dd; padding: 48px max(24px, calc((100vw - 1240px)/2)); display: flex; justify-content: space-between; gap: 32px; align-items: center; }
+.olpNextPerson div > a { font-family: Georgia, serif; font-size: clamp(30px, 4vw, 54px); }
+.olpNextPerson div > p:last-child { font-size: 13px; color: #5f6671; }
+.olpAllPeople { font-size: 13px; white-space: nowrap; }
+.olpPeopleFooter { background: #03070d; color: #fffdf9; padding: 70px max(24px, calc((100vw - 1240px)/2)); display: flex; justify-content: space-between; gap: 60px; }
+.olpPeopleFooter .olpEyebrow { color: #ebce84; }
+.olpPeopleFooter h2 { font-size: clamp(38px, 5vw, 66px); margin: 0 0 30px; letter-spacing: -.035em; line-height: 1.1; }
+.olpContactLink { color: #ebce84; font-size: 18px; }
+.olpFooterDetails { align-self: end; font-size: 13px; line-height: 1.8; color: #bec5ce; }
+.olpFooterDetails strong { color: white; }
+@media(max-width: 1000px) {
+ .olpDirectory { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .olpIntroGrid { gap: 32px; }
+ .olpProfileHeroGrid { gap: 32px; }
+ .olpProfileBody { grid-template-columns: 200px minmax(0,1fr); gap: 40px; }
+}
+@media(max-width: 760px) {
+ .olpPeopleHeader { flex-wrap: wrap; gap: 18px; padding: 18px 20px; }
+ .olpPeopleHeader nav { gap: 24px; font-size: 12px; }
+ .olpPeopleIntro { padding: 48px 20px 0; }
+ .olpIntroGrid { grid-template-columns: 1fr; gap: 24px; }
+ .olpIntroGrid h1 { font-size: clamp(54px,12vw,82px); }
+ .olpIntroFoot { margin-top: 40px; }
+ .olpProfileHeroGrid { grid-template-columns: 1fr; gap: 0; }
+ .olpProfileHeading { padding: 0 0 40px; }
+ .olpProfilePortrait { max-width: 520px; }
+ .olpProfileHeading h1 { font-size: clamp(52px,11vw,80px); }
+ .olpProfileBody { grid-template-columns: 1fr; padding: 40px 20px; gap: 40px; }
+ .olpProfileIndex { position: static; }
+ .olpProfileIndex nav { display: flex; flex-wrap: wrap; gap: 16px 24px; }
+ .olpProfileReturn { display: none; }
+ .olpProfileIndex .olpEyebrow { margin-bottom: 16px; }
+ .olpNextPerson, .olpPeopleFooter { flex-direction: column; align-items: flex-start; }
+ .olpFooterDetails { align-self: start; }
+}
+@media(max-width: 620px) {
+ .olpDirectory { grid-template-columns: 1fr; padding: 12px 20px 60px; gap: 40px; }
+ .olpCardCaption h2 { font-size: 32px; }
+ .olpDirectoryNote { min-height: 330px; }
+ .olpExpertiseList { grid-template-columns: 1fr; }
+ .olpProfileContent h2 { font-size: 34px; }
+}
+@media(prefers-reduced-motion: reduce) { .olpCardImage img { transition: none; } }

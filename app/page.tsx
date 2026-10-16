@@ -90,7 +90,7 @@ const teamMembers = [
   },
 ];
 
-const process = [
+const workProcess = [
   {
     title: "Understand",
     text: "We clarify the commercial goal, the legal risk and the practical constraints around the matter.",
@@ -109,7 +109,7 @@ const navigation = [
   { label: "Practice Areas", href: "#practice" },
   { label: "About", href: "#about" },
   { label: "Process", href: "#process" },
-  { label: "Team", href: "#team" },
+  { label: "Team", href: "/team" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -359,7 +359,7 @@ export default function Home() {
                   <p className="eyebrow eyebrowLight">The people behind the advice</p>
                   <h2>Your business.<br />Our <em>commitment.</em></h2>
                   <p>Meet the people who bring care, commercial understanding and clear thinking to your legal matters.</p>
-                  <a className="button buttonGold" href="#team">Meet our team <ArrowIcon /></a>
+                  <a className="button buttonGold" href="/team">Meet our team <ArrowIcon /></a>
                 </div>
                 <div className="oakHeroPortraits" aria-hidden="true">
                   {teamMembers.slice(0, 3).map((member) => (
@@ -471,7 +471,7 @@ export default function Home() {
           </header>
 
           <div className="processGrid">
-            {process.map((step, index) => (
+            {workProcess.map((step, index) => (
               <article className="processCard" key={step.title} data-reveal style={{ "--delay": `${index * 100}ms` } as CSSProperties}>
                 <span className="processNumber">{String(index + 1).padStart(2, "0")}</span>
                 <div>
@@ -525,8 +525,8 @@ export default function Home() {
               <h3>{selectedMember.name}</h3>
               <p className="teamProfileRole">{selectedMember.role}</p>
               <p className="teamProfileFocus">{selectedMember.focus}</p>
-              <a href={`mailto:${selectedMember.email}`} className="button buttonOutlineLight">
-                Contact {selectedMember.name.split(" ")[0]} <ArrowIcon />
+              <a href={`/team/${selectedMember.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`} className="button buttonOutlineLight">
+                View {selectedMember.name.split(" ")[0]}’s profile <ArrowIcon />
               </a>
             </div>
           </div>
